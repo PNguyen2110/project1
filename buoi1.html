@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        p{
+            display:none;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <label for="chonLoaiXe">Chọn loại xe:</label>
+        <label for="car">Car</label>
+        <input type="radio" name="loaixe" id="car" value="car">
+        <label for="xemay">xe máy</label>
+        <input type="radio" name="loaixe" id="xemay" value="xemay">
+    </div>
+    <br>
+    <div>
+        <label for="soKm">Nhập số Km</label>
+        <input type="text" name="" id="soKm" placeholder="10k/km">
+        
+    </div>
+    <br>
+    <div>
+        <label for="thoiGiancho">Thời gian chờ</label>
+        <input id="thoiGiancho" type="text" placeholder="tính bằng phút">
+        
+    </div>
+    <br>
+    <div>
+        <button id="thanhTien">Thành Tiền</button>
+    </div>
+        
+        <p id="tien">Tổng số tiền: <span id="soTien"></span>VND</p>
+   
+
+
+
+
+    <script src="../assets/js/main.js"></script>    
+</body>
+</html>
